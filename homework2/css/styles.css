@@ -1,0 +1,157 @@
+@font-face {
+	font-family: 'Myriad Pro';
+	src: local('Myriad Pro Regular'), local('Myriad-Pro-Regular'),
+	url('../fonts/MyriadPro-Regular.woff2') format('woff2'),
+	url('../fonts/MyriadPro-Regular.woff') format('woff'),
+	url('../fonts/MyriadPro-Regular.ttf') format('truetype');
+	font-weight: 400;
+}
+
+#logo{
+	margin:auto;
+	display:block;
+	max-width:1280px;
+	font-family: 'Myriad Pro';
+	font-size: 80px;
+	color: #4bcaff;
+	text-decoration: none;
+}
+
+#logo:before{
+	color:black;
+	content:"Ra";
+}
+
+.panel{
+	background-color:#35444f;	
+	max-width:1280px;
+	margin:auto;
+	display:block;
+	margin-top:45px;
+	text-align:center;
+}
+
+.top-panel {
+	font-size: 24px;
+	font-family: 'Myriad Pro';
+	text-decoration: none;
+	color: #ffffff;
+	padding: 20px 40px 20px 40px;
+	margin-bottom: 354;
+}
+
+.top-panel:hover {
+	background-color: #222f3a;
+	border-right: 1px solid #fff;
+	border-left: 1px solid #fff;
+	display: inline;
+	margin: 0;
+	padding: 20px 40px 20px 40px;
+}
+
+.panel a {
+	display: inline-block;
+}
+#container div {
+	display: inline-block;
+}
+.bottom-panel a {
+	display: inline-block;	
+}
+
+#container{
+	display: flex;
+	flex-direction: row;
+	max-width:1280px;
+	margin:auto;
+}
+
+.left-panel{
+	width:340px;
+	height:400px;
+	max-width:1280px;
+	border: 1px solid #000;
+	display:block;
+	margin-top:53px;
+}
+
+.left-panel a:hover {
+	background-color: #dbdbdb;
+	padding: 24px 0 24px 60px;
+	width: 280px;
+}
+
+.left-panel a{
+	display: block;
+	font-family: 'Myriad Pro';
+	font-size:27px;
+	color:#495863;
+	width:301px;
+	padding:24px 0 24px 40px;
+	text-decoration: none;
+}
+
+.image{
+	width:890px;
+	height:530px;
+	margin-top: 53px;
+	margin-left:53px;
+	border: 1px solid #000;
+}
+
+#front{
+	display: block;
+	margin:auto;
+	transition: transform .2s;
+	padding: 76px 0 76px 0;
+}
+
+#front:hover{
+	transform: scale(1.2);
+}
+
+
+.textdiv{
+	padding-top: 17px;			
+	width: 884px;
+	margin:auto;
+	max-width:1245px;
+}
+
+.text{
+	font-size: 18px;
+	line-height: 24px;
+	color: #2c2c2c;
+	font-family: "Myriad Pro";
+	text-align: justify;
+	padding: 0 30px 0 30px;
+}
+
+div.bottom-panel {
+	background-color: #b4b7b9;
+	font-size: 28px;
+	font-family: "Myriad Pro";
+	font-weight: 900;
+	max-width: 1280px;
+	margin: auto;
+	margin-top: 335px;
+	padding: 20px 0;
+}
+
+#bottom-panel{
+	margin:14px;
+	text-decoration: none;
+	color: #0c1927;	
+}
+
+#copy{
+	display:inline;
+	margin-left: 187px;
+}
+
+#bottom-panel:hover {
+	cursor: pointer;
+	text-decoration: underline;
+	color: #729caf;
+}
+
