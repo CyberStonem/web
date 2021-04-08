@@ -1,0 +1,147 @@
+
+.mainPage{
+	width: 1366px;
+	height: 768px;
+	background-image: url(../img/background.png);
+}
+header{
+    float: left;
+    width: 1064px;
+    margin-left: 155px;
+    margin-top: 49px;
+}
+#logo{
+    float: left;
+    height: 46px;
+}
+#logotext-block{
+    float: left;
+}
+
+.milan-holidays p{
+    font-family: verdana, sans-serif;
+    font-weight: bold;
+    margin: 0;
+    color: #fff;
+    width: 106px;
+}
+.milan-holidays{
+    float: left;
+    margin-left: 13px;
+}
+
+#milan{
+    flex-direction: column;
+    font-size: 29px;
+    margin-block-start: -5px;
+    height: 29px;  
+}   
+#holidays{
+	flex-direction: column;
+    font-size: 18px;
+    margin-inline-start: 1px;
+    padding-top: 6px;
+}
+.rightPanel{
+	text-align: right;
+    float: right;
+} 
+.rightPanel p{
+    color: #fff;
+    width: 250px;
+	font-family: "Verdana";
+	font-size: 18px;
+	font-weight: inherit;
+}
+#phone{
+	padding-top: 7px;    
+}
+.main{
+    margin-top: 46px;
+    margin-left:155px;
+}
+.picturesContainer p{
+	font-size: 18px;
+	font-family: "Verdana";
+	color: rgb(255, 255, 255);
+	line-height: 1.167;
+	text-align: center;
+    margin-top: 20px;
+    margin-bottom: 52px;
+}
+.picturesContainer {
+    margin-right:65px;
+    float: left;
+}
+.textLink a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+#rightSpan p::after{
+    margin-left: 15px;
+    content: ">";
+}
+#rightSpan a{
+    text-decoration: none;
+    color:#fff;
+}
+.Picture{
+	padding: 2px;
+	background: linear-gradient(to bottom , white, black);
+	
+}
+.hoverBlock{
+    background-image: url(../img/Hover.png);  
+    visibility: hidden;
+    position: absolute;
+	bottom: 0;
+	left:0;
+    width: 100%;
+    opacity: 0;
+    height: 63px;
+    -webkit-transition: opacity 600ms, visibility 600ms;
+    transition: opacity 600ms, visibility 600ms;
+}
+#from{
+    float: left;
+    margin: 0;
+    margin-left: 20px;
+    margin-top:15px;
+    font-size: 10px;
+    text-align: left;
+}
+#price{
+    font-size: 20px;
+}
+.picturesContainer .selector:hover .hoverBlock{
+    visibility: visible;
+    opacity: 1;
+}
+.selector:hover + .textLink a{
+    color: #c5531d;
+}
+.selector{
+    position: relative;
+}
+#rightSpan p{
+    float: right;
+    margin-right: 17px;
+    margin-top: 32px;
+    font-size: 14px;
+}
+
+#noBottomMargin{
+    margin-bottom: 0px;
+}
+footer p{
+	font-size: 12px;
+    font-family: "Verdana";
+    color: rgb(255, 255, 255);
+    line-height: 1.75;
+    text-align: center;
+}
+footer{
+	margin-top:35px;
+}
+
+
