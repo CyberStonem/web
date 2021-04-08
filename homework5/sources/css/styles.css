@@ -1,0 +1,196 @@
+    @font-face {
+    font-family: "Arimo";
+    src: local('Arimo-VariableFont_wght'), local('Arimo-Italic-VariableFont_wght'),
+        url('../fonts/Arimo-VariableFont_wght.ttf') format('truetype'),
+        url('../fonts/Arimo-Italic-VariableFont_wght.ttf') format('truetype');
+}
+.content {
+    margin: auto;
+    width: 75%;
+    max-width: 1500px;
+}
+.firstTable td {
+    text-align: center;
+    border-left: 1px solid #b5b6b911;
+    border-right: 1px solid #b5b6b911;
+    padding: 27px 0;
+}
+th{
+    padding: 27px 0;
+}
+table{
+    width: 100%;
+    border: solid 24px #3a4965;
+    font-family: "Arimo";
+}
+p{
+    text-transform: uppercase;
+    font-size: 18px;
+    color: rgb(72, 72, 72);
+    text-align: left;
+    line-height: 1.556;
+}
+.tableName{
+    vertical-align: middle;
+    background-color: #fafafa;
+}
+.tableName p{
+    font-weight: bold;
+    text-align: center;
+}
+.thNames{
+    width: 25%;
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+}
+.standartColumn{
+    background-color: #89c331;
+}
+.ultimateColumn{
+    font-size: 30px;
+    background-color:#f04a56;
+}
+.premiumColumn{
+    background-color:#20807c;
+}
+
+#pricing{
+    font-size: 30px;
+    line-height: 0.933;
+}
+#choose{
+    font-size: 18px;
+    line-height: 1.556;
+}
+.bigPrice{
+    font-size: 60px;
+    line-height: 0.467;
+    text-align: left;
+    font-weight: bold;
+}
+.smallPrice{
+    font-size: 24px;
+    line-height: 1.167;
+}
+.price{
+    display: flex;
+    align-items: center;    
+    justify-content: center;
+}
+.perMonth p{
+    font-size: 18px;
+    line-height: 1.556;
+    color: rgb(72, 72, 72);
+}
+button{
+    text-transform: uppercase;
+    width: 66%;
+    padding: 20px 0 13px 0;
+    background-color: #484848;
+    color: white;
+    font-size: 16px;
+    border: 0;
+    border-radius: 3px;
+    position: relative;
+    box-shadow: 0 7px 0 0 #404040;
+}
+button:hover{
+    top: 3px;
+    box-shadow: none;
+}
+.standartButtom{
+    box-shadow: 0 7px 0 0 #79b027;
+}
+.ultimateButtom{
+    box-shadow: 0 7px 0 0 #df3a46;
+    font-size: 16px;
+}
+.premiumButtom{
+    box-shadow: 0 7px 0 0 #16736f;
+}
+.firstTable .ContactBgColor{
+    background-color: #dddddd;
+}
+.firstTable tr:nth-child(even){
+    background-color: #e3e3e3;
+}
+.firstTable #noColor{   
+    background-color: #fafafa;
+}
+i {
+    padding-right: 10px;
+    color:  #848484;
+}
+.fa{
+    font-size: 22px
+}
+.firstTable td:nth-child(2), #forBorder1{
+    box-shadow:  3px  0 1px rgba(38, 43, 48, 0.116),  -3px 0 1px rgba(34, 60, 80, 0.116);
+}
+.firstTable td:nth-child(3), #forBorder{
+    box-shadow:  0 0 0 white,3px 0 1px rgba(34, 60, 80, 0.116), 0 0 0 white,  0 0 0 white;
+}
+.secondTable tr th, .secondTable tr td {
+    vertical-align: middle;
+    text-transform: uppercase;
+}
+.secondTable tr td .price{
+    margin: 23px 0;
+}
+.secondTable tr td .price .bigPrice{
+    line-height: 0.867;
+}
+.secondTable tr td .price .perMonth{
+    display: flex;
+    align-self: center;
+}
+.secondTable tr th i{
+    margin-bottom: 10px;
+    padding: 0;
+}
+.secondTable tr th{
+    font-size: 20px;
+}
+.secondTable .price{
+    align-items: end;
+}
+.secondTable tr th .tableName p{
+    text-align: center;
+}
+.topLane > th {
+    width: calc((100% - (100%/7 + 10%))/6);
+}
+#thHeaderName{
+width: calc(100%/7 + 10%);
+}
+tr .tdColorLetters *{
+    color: white;
+}
+.secondTable .perMonth{
+    margin-left: 7px;
+}
+.secondTable .planName{
+   font-weight: bold; 
+    font-size: 24px;
+}
+.secondTable tr td {
+    line-height: 1.833;
+    font-size: 16px;
+}
+.secondTable td:nth-child(even), .secondTable th:nth-child(even){
+    background-color: #e3e3e3;
+}
+.secondTable td{
+    box-shadow: 0 3px   1px rgba(38, 43, 48, 0.116), 0 -3px  1px rgba(34, 60, 80, 0.116);
+}
+.secondTable td:nth-child(2n+1) {
+   /* box-shadow:  0 0 0 white,0 3px  1px rgba(34, 60, 80, 0.116), 0 0 0 white,  0 0 0 white;*/
+    box-shadow: 0 0   1px rgba(38, 43, 48, 0.116),  0 -3px  1px rgba(34, 60, 80, 0.116);
+}
+.secondTable td {
+    text-align: center; 
+    border-top: 1px solid #b5b6b911;
+    border-bottom: 1px solid #b5b6b911;
+    padding: 27px 0;
+}
