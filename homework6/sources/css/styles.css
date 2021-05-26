@@ -1,0 +1,295 @@
+@font-face {
+    font-family: "Open Sans";
+    src: local('OpenSans-Bold'), local('OpenSans-BoldItalic'), 
+    local('OpenSans-ExtraBold'), local('OpenSans-ExtraBoldItalic'),
+    local('OpenSans-Italic'), local('OpenSans-Light'),
+    local('OpenSans-LightItalic'), local('OpenSans-Regular'),
+    local('OpenSans-SemiBold'), local('OpenSans-SemiBoldItalic'),
+        url('../fonts/static/OpenSans-Bold.ttf') format('truetype'),
+        url('../fonts/static/OpenSans-BoldItalic.ttf') format('truetype'),
+        url('../fonts/static/OpenSans-ExtraBold.ttf') format('truetype'),
+        url('../fonts/static/OpenSans-ExtraBoldItalic.ttf') format('truetype'),
+        url('../fonts/static/OpenSans-Italic.ttf') format('truetype'),
+        url('../fonts/static/OpenSans-Light.ttf') format('truetype'),
+        url('../fonts/static/OpenSans-LightItalic.ttf') format('truetype'),
+        url('../fonts/static/OpenSans-Regular.ttf') format('truetype'),
+        url('../fonts/static/OpenSans-SemiBold.ttf') format('truetype'),
+        url('../fonts/static/OpenSans-SemiBoldItalic.ttf') format('truetype');
+}
+header{
+    background-image: url(../img/navbar-bg.png);
+    font-family: "Open Sans";
+}
+header .container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+header .logoAndName{
+    display: flex;
+    align-items: center;
+}
+header .logoKartinka{
+    background-color: #1a1d20;
+}
+header .logoName{
+    font-size: 22px;
+    font-weight: bold;
+}
+header a{
+    text-decoration: none;
+    color: white;
+}
+header nav{
+    max-width: 1170px;
+}
+header nav a{
+    text-transform: uppercase;
+    font-size: 15px;
+    padding: 0 17px;
+}
+header .fa{
+    font-size: 20px;
+}
+header .padder{
+    padding: 23px 20px 18px 20px;
+}
+header .right a{
+    background-color: #1a1d20;
+}
+main .container{
+    margin: auto;
+}
+main .news{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+main .news{
+    text-transform: uppercase;
+    padding: 125px 0;
+    background-image: url(../img/header-bg-img.png);
+    height: 100%;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+main{
+    font-family: "Open Sans";
+}
+main .news h1{
+    font-size: 27px;
+    font-weight: bold;
+    margin-bottom: 43px;
+    color:white;
+}
+main .knopki button{
+    padding: 20px 0;
+    border: 0;
+    border-radius: 3px;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    width: 170px;
+}
+.sub{
+    background-color:#89ca62;
+    margin-right: 10px;
+}
+.best{
+    background-color:#14b9d5;
+    margin-left: 10px;
+}
+main .postsContainer{
+    max-width: 1170px;
+    margin: auto;
+    display: flex;
+    height: 880px;
+    flex-flow: column wrap;
+}
+main .post{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #ffffff;
+}
+main .popular{
+    background-color: #f2f2f2;
+}
+main h2{
+    text-transform: uppercase;
+    font-size: 27px;
+    color: #14b9d5;
+    text-align: center;
+    padding: 54px 0 54px 0;
+}
+main .desc{
+    padding: 21px 0 25px 0;
+}
+main .desc a{
+    text-decoration: none;
+    font-size: 18px;
+    color: #353a3d;
+}
+main .clients{
+    background-image: url(../img/brands-bg.png);
+    height: 100%;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+main .clients h1{
+    font-size: 32px;
+    font-weight: bold;
+    color: white;
+    padding-top: 200px;
+    display: grid;
+    justify-items: center;
+    text-transform: uppercase;
+}
+main .clogo{
+    padding-bottom: 200px;
+    display: grid;
+    grid-template-columns: repeat(4, minmax(250px, 250px));
+    align-items: center;
+    justify-content: center;
+    grid-gap: 2vw;
+    text-align: center;
+}
+.clogo a:first-child{
+    grid-column-start:1;
+}
+.container1{
+    margin: auto;
+    max-width: 1170px;
+}
+.container1 .blueShape{
+    display: grid;
+    padding: 50px 0;
+    justify-items: center;
+}
+main .top1{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(270px, 0.2fr));
+    justify-content: center;
+}
+.toph2{
+    display: grid;
+    justify-items: center;
+    text-transform: uppercase;
+    padding-top: 60px;
+    padding-bottom: 50px;
+}
+.top1 img{
+    width: 100%;
+}
+.hot{
+    display: grid;
+    justify-items: center;
+    margin-bottom: 71px
+}
+.news1 {
+    display: grid;
+    font-size: 14px;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1171px));
+    grid-gap: 42px
+}
+.headerRow{
+    display: grid;
+    grid-template-columns: 857px 279px;
+    grid-gap: 35px;
+}
+.headerRow .newsText{
+    height: auto;
+}
+.newsContainer{
+    display: grid;
+    grid-template-columns: 483px 374px;
+}
+.newsText{
+    background-color: #f9f7f7;
+    display: grid;
+    padding: 0 27px 0 20px;
+    height: 159px;
+}
+.headerRow .newsText{
+    width:335px;
+    padding-left: 30px;
+    padding-right: 24px;
+}
+.smallNewsContainer .newsText{
+    width: 278px;
+    padding:  0;
+    display: grid;
+    justify-content: center;
+    height: 48px;
+}
+.newsText h5{
+    display: grid;
+    place-self: center end;
+    font-size: 18px;
+    font-family: "Open Sans";
+    color: rgb(53, 58, 61);
+    font-weight: bold;
+    line-height: 1.2;
+    text-align: right;
+}
+.newsText p{
+    font-size: 14px;
+    font-family: "Open Sans";
+    color: rgb(91, 100, 105);
+    line-height: 1.5;
+    text-align: right; 
+}
+.secondRow{
+    display: grid;
+    grid-template-columns:  556px 556px;/*159px */
+    grid-gap: 60px;
+}
+.newsContainer1{
+    display: grid;
+    grid-template-columns: 554px;
+}
+.footerRow{
+    display: grid;
+    grid-template-columns: 279px 857px;
+    grid-gap: 35px;
+}
+.footerRow .newsText{
+    height: auto;
+}
+.footerRow .smallNewsContainer .newsText {
+    height: 48px;
+}
+footer{
+    display: grid;
+    justify-items: center;
+    background-color: #1d2124;
+}
+footer .container{
+    height: 79px;
+    display: grid;
+    grid-template-columns: 537px  250px;
+    justify-content: space-between;
+    width: 1171px;
+}
+footer .container .rights p{
+    font-size: 13px;
+    font-family: "Open Sans";
+    color: rgb(255, 255, 255);
+    line-height: 1.615;
+}
+footer .container .rights{
+    display: grid;
+    align-items: center;
+}
+.devLogo{
+    display: grid;
+    place-self: center end;
+    grid-template-columns: 40px 65px;
+}
+
+  
