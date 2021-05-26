@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <script>
+        function createNewUser() {
+            var firstName = prompt("Введите имя", 0);
+            var lastName = prompt("Введите фамилию", 0);
+            let newUser = new Object;
+            newUser = {
+                    name: firstName,
+                    lastName: lastName,
+                    getLogin: function(){
+                    var smallname = this.name.charAt(0).toLowerCase() + this.lastName.toLowerCase(); 
+                    console.log(smallname);
+                    }
+                };
+            return newUser;
+        }
+        var newUser = createNewUser();
+        newUser.getLogin();
+        console.log(newUser);
+    </script>
+</head>
+<title>JS4</title>
+<body>
+JS4
+</body>
+</html>
